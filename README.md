@@ -65,42 +65,70 @@ I enjoy taking an idea → designing the system → building it → breaking it 
 </td>
 </tr>
 </table>
+
+
 ## ⚙️ Tech Stack
 
 ### 💻 Languages
+
 <p>
   <img src="https://skillicons.dev/icons?i=python,cpp,c,javascript,typescript,java,html,css" />
 </p>
 
-### 🤖 AI / ML
+### 🤖 AI / Machine Learning
+
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
 </p>
 
-**Machine Learning • Deep Learning • Neural Networks • Computer Vision • NLP • LLMs • RAG • Object Detection**
+<p>
+  <b>Machine Learning</b> • <b>Deep Learning</b> • <b>Neural Networks</b> •
+  <b>Computer Vision</b> • <b>Object Detection</b> • <b>NLP</b> • <b>LLMs</b>
+</p>
 
-**PyTorch • TensorFlow • Scikit-learn • Hugging Face • OpenCV • YOLO • ByteTrack • NumPy • Pandas • Matplotlib**
+<p>
+  PyTorch • TensorFlow • Scikit-learn • Hugging Face • OpenCV • YOLO •
+  ByteTrack • NumPy • Pandas • Matplotlib
+</p>
 
 ### 🧠 LLM & AI Engineering
 
-**Hugging Face Transformers • OpenAI API • LangChain • RAG • Embeddings • Vector Search**
-
-### 🌐 Web & Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,postgresql,mongodb,redis" />
+  Hugging Face Transformers • OpenAI API • LangChain • RAG • Embeddings •
+  Vector Search • Tool Calling
 </p>
 
-**REST APIs • SQLAlchemy • Postman**
+### 🌐 Backend & Databases
+
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgresql,mongodb,redis" />
+</p>
+
+<p>
+  REST APIs • SQL • SQLAlchemy • API Integration
+</p>
+
+### ⚛️ Frontend
+
+<p>
+  <img src="https://skillicons.dev/icons?i=react,html,css,javascript,typescript" />
+</p>
 
 ### 🛠️ Tools & Systems
+
 <p>
   <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,jupyter" />
 </p>
 
-**GitHub Actions • Streamlit**
+<p>
+  GitHub Actions • Postman • Streamlit
+</p>
 
+### 🚀 Currently Exploring
 
----
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+more+AI-powered+applications;Exploring+LLMs+%26+RAG;Going+deeper+into+Computer+Vision;Building+better+backend+systems;Learning+by+building+%F0%9F%9A%80" />
+</p>
 ---
 
 ## 🐍 Contribution Snake
