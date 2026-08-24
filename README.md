@@ -2,6 +2,17 @@
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=180&section=header&text=Devansh%20Singh%20Bais&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20%7C%20LLMs%20%7C%20Backend%20%7C%20Builder&descAlignY=55&descSize=18" width="100%" />
 </p>
+<p align="center">
+  <a href="https://github.com/DevanshSinghBais">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+  <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+</p>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DevanshSinghBais&style=for-the-badge&color=0072FF&label=PROFILE+VIEWS" />
+</p>
 <h1 align="center">Hey 👋, I'm Devansh Singh Bais</h1>
 
 <h3 align="center">AI/ML • Backend • Builder</h3>
