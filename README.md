@@ -71,6 +71,79 @@
 </p>
 
 ---
+---
+
+## 🚀 Featured Projects
+
+<table>
+<tr>
+<td width="50%">
+
+### 🌱 EcoMRI
+
+**Environmental Intelligence Platform**
+
+Turns monitoring data into evidence-backed **anomalies, risk assessment, and recommended actions**.
+
+`TypeScript` `AI` `Data Intelligence`
+
+<a href="https://github.com/DevanshSinghBais/ecomri">
+  <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🧠 StudyPilot
+
+**Personal AI Study Agent**
+
+An AI study assistant using **LLMs, tool calling, Gradio, and local knowledge**.
+
+`Python` `LLMs` `Tool Calling` `Gradio`
+
+<a href="https://github.com/DevanshSinghBais/StudyPilot">
+  <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+
+<tr>
+<td width="50%">
+
+### 🤖 GitHub Repo Explainer
+
+**LLM-Powered Repository Analyzer**
+
+Analyzes GitHub repositories using the **GitHub REST API and Gemini** to explain codebases.
+
+`Python` `LLMs` `Gemini` `GitHub API`
+
+<a href="https://github.com/DevanshSinghBais/GitHub-Repo-Explainer">
+  <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+
+<td width="50%">
+
+### 🛡️ SafeHer
+
+**Women's Safety Platform**
+
+A web platform focused on **real-time assistance, emergency support, and safety awareness**.
+
+`Web` `Real-time Systems` `AI`
+
+<a href="https://github.com/DevanshSinghBais/SafeHer">
+  <img src="https://img.shields.io/badge/View%20Project-181717?style=for-the-badge&logo=github&logoColor=white" />
+</a>
+
+</td>
+</tr>
+</table>
 
 ## 📈 Activity Graph
 
