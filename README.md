@@ -1,3 +1,7 @@
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=180&section=header&text=Devansh%20Singh%20Bais&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20%7C%20LLMs%20%7C%20Backend%20%7C%20Builder&descAlignY=55&descSize=18" width="100%" />
+</p>
 <h1 align="center">Hey 👋, I'm Devansh Singh Bais</h1>
 
 <h3 align="center">AI/ML • Backend • Builder</h3>
