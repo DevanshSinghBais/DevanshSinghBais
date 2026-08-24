@@ -130,7 +130,13 @@ I enjoy taking an idea → designing the system → building it → breaking it 
   <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+more+AI-powered+applications;Exploring+LLMs+%26+RAG;Going+deeper+into+Computer+Vision;Building+better+backend+systems;Learning+by+building+%F0%9F%9A%80" />
 </p>
 ---
+---
 
+## 🏆 GitHub Trophies
+
+<p align="center">
+  <img src="https://github-profile-trophy.vercel.app/?username=DevanshSinghBais&theme=tokyonight&no-frame=true&no-bg=true&margin-w=8&column=4" width="90%" />
+</p>
 ## 🐍 Contribution Snake
 
 <p align="center">
