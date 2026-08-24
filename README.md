@@ -28,15 +28,43 @@
 
 ## 🧠 About Me
 
-- 🤖 Passionate about **Artificial Intelligence & Machine Learning**
-- 🧠 Working with **Machine Learning, Deep Learning & Neural Networks**
-- 👁️ Interested in **Computer Vision, LLMs & AI-powered applications**
-- 💻 Building across **AI/ML, Backend & Full-Stack Development**
-- 🚀 Turning ideas into real-world projects
-- ⚡ Always learning, experimenting, and building
+<table>
+<tr>
+<td width="60%">
 
----
+### 👋 Who am I?
 
+I'm **Devansh Singh Bais**, an AI/ML-focused developer who enjoys building things that go beyond notebooks and actually **do something useful**.
+
+My interests sit at the intersection of:
+
+- 🤖 **Artificial Intelligence & Machine Learning**
+- 🧠 **Deep Learning & Neural Networks**
+- 👁️ **Computer Vision**
+- 🧩 **LLMs & AI Engineering**
+- 🌐 **Backend & Full-Stack Development**
+
+I enjoy taking an idea → designing the system → building it → breaking it → fixing it → and shipping it. 🚀
+
+</td>
+
+<td width="40%">
+
+### 🎯 Currently
+
+🔭 Building **AI-powered applications**
+
+🧠 Exploring **LLMs & RAG**
+
+👁️ Working with **Computer Vision**
+
+⚙️ Building **backend systems & APIs**
+
+📚 Learning something new every day
+
+</td>
+</tr>
+</table>
 ## ⚙️ Tech Stack
 
 ### 💻 Languages
