@@ -8,34 +8,50 @@
 ---
 ---
 
+
+---
+
 ## 🧠 About Me
 
-- 🤖 Interested in **Artificial Intelligence & Machine Learning**
+- 🤖 Passionate about **Artificial Intelligence & Machine Learning**
 - 🧠 Working with **Machine Learning, Deep Learning & Neural Networks**
-- 💻 Building projects across **AI/ML, LLMs & Backend Development**
-- 🚀 Exploring how to turn AI ideas into real-world applications
-- 🌱 Constantly learning, experimenting, and building
+- 👁️ Interested in **Computer Vision, LLMs & AI-powered applications**
+- 💻 Building across **AI/ML, Backend & Full-Stack Development**
+- 🚀 Turning ideas into real-world projects
+- ⚡ Always learning, experimenting, and building
 
 ---
 
 ## ⚙️ Tech Stack
 
-### Languages
+### 💻 Languages
 <p>
-  <img src="https://skillicons.dev/icons?i=python,cpp,javascript,typescript,java,html,css" />
+  <img src="https://skillicons.dev/icons?i=python,cpp,c,javascript,typescript,java,html,css" />
 </p>
 
-### AI / ML
+### 🤖 AI / ML
 <p>
   <img src="https://skillicons.dev/icons?i=pytorch,tensorflow" />
 </p>
 
-### Backend & Databases
+**Machine Learning • Deep Learning • Neural Networks • Computer Vision • NLP • LLMs • RAG • Object Detection**
+
+**PyTorch • TensorFlow • Scikit-learn • Hugging Face • OpenCV • YOLO • ByteTrack • NumPy • Pandas • Matplotlib**
+
+### 🧠 LLM & AI Engineering
+
+**Hugging Face Transformers • OpenAI API • LangChain • RAG • Embeddings • Vector Search**
+
+### 🌐 Web & Backend
 <p>
-  <img src="https://skillicons.dev/icons?i=nodejs,express,mongodb,postgresql" />
+  <img src="https://skillicons.dev/icons?i=nodejs,express,react,fastapi,postgresql,mongodb,redis" />
 </p>
 
-### Tools & Environment
+**REST APIs • SQLAlchemy • Postman**
+
+### 🛠️ Tools & Systems
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,vscode,linux,docker" />
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,jupyter" />
 </p>
+
+**GitHub Actions • Streamlit**
