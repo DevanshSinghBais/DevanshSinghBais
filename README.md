@@ -1,7 +1,16 @@
-
+````markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=180&section=header&text=Devansh%20Singh%20Bais&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20%7C%20LLMs%20%7C%20Backend%20%7C%20Builder&descAlignY=55&descSize=18" width="100%" />
 </p>
+
+<h1 align="center">Hey 👋, I'm Devansh Singh Bais</h1>
+
+<h3 align="center">AI/ML • Backend • Builder</h3>
+
+<p align="center">
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=650&lines=Building+with+Python+%F0%9F%90%8D;Machine+Learning+%26+Deep+Learning+%F0%9F%A7%A0;Exploring+LLMs+%26+AI+Engineering+%F0%9F%A4%96;Computer+Vision+%26+Intelligent+Systems+%F0%9F%91%81%EF%B8%8F;Turning+ideas+into+working+projects+%F0%9F%9A%80" alt="Typing SVG" />
+</p>
+
 <p align="center">
   <a href="https://github.com/DevanshSinghBais">
     <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" />
@@ -10,21 +19,12 @@
     <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
   </a>
 </p>
+
 <p align="center">
   <img src="https://komarev.com/ghpvc/?username=DevanshSinghBais&style=for-the-badge&color=0072FF&label=PROFILE+VIEWS" />
 </p>
-<h1 align="center">Hey 👋, I'm Devansh Singh Bais</h1>
 
-<h3 align="center">AI/ML • Backend • Builder</h3>
-
-<p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=36BCF7&center=true&vCenter=true&width=600&lines=Building+with+Python+%F0%9F%90%8D;Learning+AI+%26+Machine+Learning+%F0%9F%A7%A0;Exploring+LLMs+%26+Backend+Development+%F0%9F%9A%80;Turning+ideas+into+working+projects+%F0%9F%92%BB" alt="Typing SVG" />
-</p>
 ---
-
-
-
-
 
 ## 🧠 About Me
 
@@ -97,6 +97,8 @@ I enjoy taking an idea → designing the system → building it → breaking it 
 │  ██████████████████████ 100%
 │
 └──[ devansh@github ]─[ ~ ]
+````
+
 ## ⚙️ Tech Stack
 
 ### 💻 Languages
@@ -157,11 +159,10 @@ I enjoy taking an idea → designing the system → building it → breaking it 
 ### 🚀 Currently Exploring
 
 <p align="center">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+more+AI-powered+applications;Exploring+LLMs+%26+RAG;Going+deeper+into+Computer+Vision;Building+better+backend+systems;Learning+by+building+%F0%9F%9A%80" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=18&duration=2500&pause=800&color=36BCF7&center=true&vCenter=true&width=700&lines=Building+more+AI-powered+applications;Exploring+LLMs+%26+RAG;Going+deeper+into+Computer+Vision;Building+better+backend+systems;Learning+by+building+%F0%9F%9A%80" alt="Currently Exploring" />
 </p>
----
----
 
+---
 
 ## 🐍 Contribution Snake
 
@@ -173,7 +174,6 @@ I enjoy taking an idea → designing the system → building it → breaking it 
   </picture>
 </p>
 
----
 ---
 
 ## 🚀 Featured Projects
@@ -248,6 +248,8 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 </tr>
 </table>
 
+---
+
 ## 📈 Activity Graph
 
 <p align="center">
@@ -274,6 +276,4 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072FF,100:00C6FF&height=100&section=footer" width="100%" />
 </p>
-
-
-
+```
