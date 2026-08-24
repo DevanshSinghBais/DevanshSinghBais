@@ -66,7 +66,37 @@ I enjoy taking an idea → designing the system → building it → breaking it 
 </tr>
 </table>
 
+---
 
+## 🖥️ `$ whoami`
+
+```text
+┌──[ devansh@github ]─[ ~ ]
+│
+│  $ whoami
+│  Devansh Singh Bais
+│
+│  $ cat interests.txt
+│  Artificial Intelligence
+│  Machine Learning
+│  Deep Learning
+│  Computer Vision
+│  LLMs & AI Engineering
+│  Backend Development
+│
+│  $ cat current_focus.txt
+│  → Building AI-powered applications
+│  → Exploring LLMs, RAG & intelligent systems
+│  → Going deeper into Computer Vision
+│  → Building scalable backend systems
+│
+│  $ echo $MINDSET
+│  Build → Break → Learn → Improve → Repeat
+│
+│  $ ./build_something_awesome
+│  ██████████████████████ 100%
+│
+└──[ devansh@github ]─[ ~ ]
 ## ⚙️ Tech Stack
 
 ### 💻 Languages
