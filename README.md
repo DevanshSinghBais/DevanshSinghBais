@@ -222,5 +222,26 @@ A web platform focused on **real-time assistance, emergency support, and safety 
   <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&theme=github-compact&hide_border=true&area=true" width="95%" />
 </p>
 
+---
+
+## 🤝 Let's Connect
+
+<p align="center">
+  <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">
+    <img src="https://img.shields.io/badge/LinkedIn-Connect-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" />
+  </a>
+  <a href="https://github.com/DevanshSinghBais">
+    <img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white" />
+  </a>
+</p>
+
+<p align="center">
+  <i>Building. Learning. Breaking things. Fixing them. Repeating. 🚀</i>
+</p>
+
+<p align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072FF,100:00C6FF&height=100&section=footer" width="100%" />
+</p>
+
 
 
