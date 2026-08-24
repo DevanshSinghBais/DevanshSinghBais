@@ -70,5 +70,13 @@
   </picture>
 </p>
 
+---
+
+## 📈 Activity Graph
+
+<p align="center">
+  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&theme=github-compact&hide_border=true&area=true" width="95%" />
+</p>
+
 
 
