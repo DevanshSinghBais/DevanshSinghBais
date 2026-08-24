@@ -1,4 +1,3 @@
-````markdown
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:00C6FF,100:0072FF&height=180&section=header&text=Devansh%20Singh%20Bais&fontSize=42&fontColor=ffffff&fontAlignY=35&desc=AI%2FML%20%7C%20LLMs%20%7C%20Backend%20%7C%20Builder&descAlignY=55&descSize=18" width="100%" />
 </p>
@@ -97,7 +96,7 @@ I enjoy taking an idea → designing the system → building it → breaking it 
 │  ██████████████████████ 100%
 │
 └──[ devansh@github ]─[ ~ ]
-````
+```
 
 ## ⚙️ Tech Stack
 
@@ -276,4 +275,3 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 <p align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0072FF,100:00C6FF&height=100&section=footer" width="100%" />
 </p>
-```
