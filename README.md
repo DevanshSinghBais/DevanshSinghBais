@@ -250,9 +250,7 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 ---
 
 ## 🔥 Streak Stats
-<p align="center">
-  <img src="https://streak-stats.demolab.com?user=DevanshSinghBais&theme=dark&hide_border=true&v=1" alt="GitHub Streak Stats" />
-</p>
+
 ## 🤝 Let's Connect
 
 <p align="center">
