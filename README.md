@@ -250,22 +250,17 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 ---
 ---
 
+---
+
 ## 🌍 Open Source Contributions
 
 <p align="center">
   <b>Building in public • Contributing to open source • Learning from the community</b>
 </p>
 
-<p align="center">
-  <a href="https://github.com/DevanshSinghBais?tab=overview&from=2026-01-01&to=2026-12-31">
-    <img src="https://img.shields.io/badge/GitHub-Contributions-181717?style=for-the-badge&logo=github&logoColor=white" />
-  </a>
-</p>
-
-- 🔧 Open-source contributions
-- 🐛 Bug fixes and improvements
-- 📚 Documentation and developer experience
-- 🤖 Exploring open-source AI/ML projects
+<!-- OSS_START -->
+- 🚀 No open-source pull requests yet — more contributions coming soon!
+<!-- OSS_END -->
 
 ---
 
