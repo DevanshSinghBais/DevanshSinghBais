@@ -252,15 +252,6 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 
 ---
 
-## 🌍 Open Source Contributions
-
-<p align="center">
-  <b>Building in public • Contributing to open source • Learning from the community</b>
-</p>
-
-<!-- OSS_START -->
-- 🚀 No open-source pull requests yet — more contributions coming soon!
-<!-- OSS_END -->
 
 ---
 
