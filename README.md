@@ -249,10 +249,10 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 
 ---
 
-## 📈 Activity Graph
+## 🔥 Streak Stats
 
 <p align="center">
-  <img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&theme=github-compact&hide_border=true&area=true" width="95%" alt="GitHub Activity Graph" />
+  <img src="https://github-readme-streak-stats.herokuapp.com/?user=DevanshSinghBais&theme=dark&hide_border=true" alt="GitHub Streak Stats" />
 </p>
 ## 🤝 Let's Connect
 
