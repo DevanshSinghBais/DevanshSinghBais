@@ -251,8 +251,7 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 
 ## 🔥 Streak Stats
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&theme=dark&hide_border=true&cache_bust=1" alt="GitHub Stats" />
-  <img src="https://streak-stats.demolab.com?user=DevanshSinghBais&theme=dark&hide_border=true&cache_bust=1" alt="GitHub Streak Stats" />
+  <img src="https://streak-stats.demolab.com?user=DevanshSinghBais&theme=dark&hide_border=true&v=1" alt="GitHub Streak Stats" />
 </p>
 ## 🤝 Let's Connect
 
