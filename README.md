@@ -248,12 +248,7 @@ A web platform focused on **real-time assistance, emergency support, and safety 
 </table>
 
 ---
----
 
----
-
-
----
 
 ## 🤝 Let's Connect
 
