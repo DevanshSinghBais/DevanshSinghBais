@@ -1,0 +1,108 @@
+name: Update Open Source Contributions
+
+on:
+  schedule:
+    - cron: "0 12 * * *"
+
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  update-contributions:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout profile repository
+        uses: actions/checkout@v4
+
+      - name: Update Open Source Contributions
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          python - <<'PY'
+          import json
+          import subprocess
+          from pathlib import Path
+
+          username = "DevanshSinghBais"
+          readme = Path("README.md")
+
+          query = f"author:{username} type:pr"
+
+          result = subprocess.run(
+              [
+                  "gh", "api",
+                  "search/issues",
+                  "-f", f"q={query}",
+                  "-f", "sort=updated",
+                  "-f", "order=desc",
+                  "-f", "per_page=5"
+              ],
+              capture_output=True,
+              text=True,
+              check=True
+          )
+
+          data = json.loads(result.stdout)
+
+          lines = []
+
+          for pr in data.get("items", []):
+              title = pr["title"]
+              url = pr["html_url"]
+              repo = pr["repository_url"].split("/")[-1]
+
+              lines.append(
+                  f'- 🔧 [{repo}]({url}) — {title}'
+              )
+
+          if not lines:
+              lines = [
+                  "- 🚀 No open-source pull requests yet — more contributions coming soon!"
+              ]
+
+          start_marker = "<!-- OSS_START -->"
+          end_marker = "<!-- OSS_END -->"
+
+          content = readme.read_text(encoding="utf-8")
+
+          start = content.find(start_marker)
+          end = content.find(end_marker)
+
+          if start == -1 or end == -1:
+              raise SystemExit(
+                  "Could not find OSS_START / OSS_END markers in README.md"
+              )
+
+          new_section = (
+              start_marker
+              + "\n"
+              + "\n".join(lines)
+              + "\n"
+              + end_marker
+          )
+
+          content = (
+              content[:start]
+              + new_section
+              + content[end + len(end_marker):]
+          )
+
+          readme.write_text(content, encoding="utf-8")
+          PY
+
+      - name: Commit README changes
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+
+          git add README.md
+
+          if git diff --cached --quiet; then
+            echo "No README changes."
+          else
+            git commit -m "Update open source contributions"
+            git push
+          fi
