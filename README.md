@@ -1,104 +1,146 @@
-<p align="center"><code>$ devansh@github:~</code> &nbsp;·&nbsp; <a href="https://github.com/DevanshSinghBais">[01 HOME]</a> &nbsp; <a href="#selected-systems">[02 PROJECTS]</a> &nbsp; <a href="#build-map">[03 STACK]</a> &nbsp; <a href="#github-activity">[04 ACTIVITY]</a> &nbsp; <a href="#connect">[05 CONNECT]</a></p>
+<div align="center">
 
-<table width="100%">
+<img src="./assets/profile-hero.svg" alt="Devansh Singh Bais — AI / ML, backend, computer vision and LLM systems" width="100%"/>
+
+<br/>
+
+<a href="https://github.com/DevanshSinghBais"><img src="https://img.shields.io/badge/GitHub-DevanshSinghBais-111111?style=flat-square&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/"><img src="https://img.shields.io/badge/LinkedIn-Devansh%20Singh%20Bais-111111?style=flat-square&logo=linkedin&logoColor=0A66C2"/></a>
+<a href="mailto:devanshsinghbais111@gmail.com"><img src="https://img.shields.io/badge/Email-contact-111111?style=flat-square&logo=gmail&logoColor=EA4335"/></a>
+
+</div>
+
+<br/>
+
+## `01 / PROFILE`
+
+I’m a **B.Tech CSE student at MANIT Bhopal** building practical software around **AI/ML, LLM applications, computer vision and backend systems**.
+
+I care less about adding buzzwords and more about turning models into something people can actually use.
+
+```text
+IDEA
+  ↓
+MODEL / ALGORITHM
+  ↓
+TOOLS + DATA
+  ↓
+TYPED API
+  ↓
+PRODUCT
+```
+
+---
+
+## `02 / SELECTED WORK`
+
+<table>
 <tr>
-<td valign="middle">
-<p><sub>HELLO, I'M &nbsp;·&nbsp; DSB / ENGINEERING LOG 01</sub></p>
-<h1>Devansh Singh Bais</h1>
-<p><strong>AI / ML &nbsp;·&nbsp; LLM WORKFLOWS &nbsp;·&nbsp; COMPUTER VISION &nbsp;·&nbsp; BACKEND SYSTEMS</strong></p>
-<p>I build practical AI software: tool-using workflows, image-classification experiments, and web products backed by typed APIs.</p>
-<p><a href="https://github.com/DevanshSinghBais">GitHub ↗</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn ↗</a> &nbsp;·&nbsp; <a href="mailto:devanshsinghbais111@gmail.com">Email ↗</a> &nbsp;·&nbsp; <a href="https://ecomri.vercel.app">EcoMRI demo ↗</a></p>
+<td width="50%" valign="top">
+
+### 🛡️ CrowdShield AI
+**AI-powered crowd monitoring & management**
+
+A computer-vision system built around multi-camera observation, detection/tracking, risk analysis and operational recommendations.
+
+**Stack:** `YOLOv8` `ByteTrack` `OpenCV` `Node.js` `Express` `MongoDB` `React` `Docker`
+
+<a href="https://github.com/DevanshSinghBais/CrowdSheild_Hackathon">Repository ↗</a>
+
 </td>
-<td align="right" valign="middle">
-<img src="assets/identity-mark.svg" width="84" alt="DSB systems compass mark" />
+<td width="50%" valign="top">
+
+### 🌍 EcoMRI
+**Environmental intelligence platform**
+
+Turns environmental observations into anomaly investigations, spatial context, evidence and recommended action through a typed web stack.
+
+**Stack:** `TypeScript` `React` `tRPC` `Express` `Drizzle`
+
+<a href="https://github.com/DevanshSinghBais/ecomri">Repository ↗</a> · <a href="https://ecomri-gsy3klvs.manus.space">Live ↗</a>
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### 🧠 StudyPilot
+**Tool-using AI learning agent**
+
+An LLM workflow that routes requests to concrete tools for calculations, note search, study plans, quizzes and data analysis.
+
+**Stack:** `Python` `LLM API` `Function Calling` `Gradio` `NumPy`
+
+<a href="https://github.com/DevanshSinghBais/StudyPilot">Repository ↗</a>
+
+</td>
+<td width="50%" valign="top">
+
+### 🔎 GitHub Repo Explainer
+**AI developer tooling**
+
+Fetches a repository README through the GitHub REST API and uses Gemini to turn unfamiliar project documentation into a beginner-friendly explanation.
+
+**Stack:** `Python` `GitHub REST API` `Gemini` `Jupyter`
+
+<a href="https://github.com/DevanshSinghBais/GitHub-Repo-Explainer">Repository ↗</a>
+
 </td>
 </tr>
 </table>
 
-<p><sub>BUILD LOOP</sub> &nbsp; <code>MODEL</code> → <code>TOOLS</code> → <code>TYPED API</code> → <code>USEFUL INTERFACE</code></p>
+---
 
-## SELECTED SYSTEMS
+## `03 / ENGINEERING STACK`
 
-<p><sub>FOUR BUILDS · SYSTEMS / TOOLS / VISION</sub></p>
+| Area | Technologies |
+|---|---|
+| **Languages** | `C++` `Python` `TypeScript` `JavaScript` `C` `Java` |
+| **AI / ML** | `PyTorch` `TensorFlow` `scikit-learn` `OpenCV` `YOLO` |
+| **LLM Systems** | `Hugging Face` `RAG` `Vector DBs` `Prompt Engineering` `Agentic AI` `MCP` |
+| **Backend** | `Node.js` `Express` `PostgreSQL` `MongoDB` `Redis` |
+| **Frontend** | `React` `HTML` `CSS` |
+| **Infrastructure** | `Docker` `Linux` `Git` `GitHub Actions` |
 
-<table width="100%">
-<tr>
-<td valign="top">
-<p><sub>01 / FEATURED · ENVIRONMENTAL INTELLIGENCE</sub></p>
-<h3><a href="https://github.com/DevanshSinghBais/ecomri">EcoMRI ↗</a></h3>
-<p><strong>Spot station changes. Follow the evidence.</strong><br />A typed tRPC/Express API powers map, trend, and investigation views. All station readings are simulated demo data.</p>
-<p><code>OBSERVE</code> → <code>MEASURE</code> → <code>DETECT</code> → <code>ACT</code></p>
-<p><code>TypeScript</code> <code>React</code> <code>tRPC</code> <code>Express</code><br /><a href="https://ecomri.vercel.app">LIVE DEMO ↗</a></p>
-</td>
-<td valign="top">
-<p><sub>02 / TOOL-USING LLM · LEARNING WORKFLOW</sub></p>
-<h3><a href="https://github.com/DevanshSinghBais/StudyPilot">StudyPilot ↗</a></h3>
-<p><strong>Turn a study question into a useful action.</strong><br />A Gradio agent routes requests to Python tools for local-note search, calculations, plans, quizzes, and data analysis.</p>
-<p><code>QUESTION</code> → <code>LLM AGENT</code> → <code>PYTHON TOOL</code> → <code>RESULT</code></p>
-<p><code>Python</code> <code>Gradio</code> <code>Function calling</code> <code>NumPy</code></p>
-</td>
-</tr>
-<tr>
-<td valign="top">
-<p><sub>03 / DEVELOPER TOOLING · REPOSITORY EXPLORATION</sub></p>
-<h3><a href="https://github.com/DevanshSinghBais/GitHub-Repo-Explainer">GitHub Repo Explainer ↗</a></h3>
-<p><strong>Get oriented in an unfamiliar repository.</strong><br />Fetches its README through the GitHub REST API, then streams a beginner-friendly Gemini explanation.</p>
-<p><code>REPOSITORY</code> → <code>README</code> → <code>GEMINI</code></p>
-<p><code>Python</code> <code>GitHub REST API</code> <code>Gemini</code></p>
-</td>
-<td valign="top">
-<p><sub>04 / COMPUTER VISION · CLASSIFICATION BASELINE</sub></p>
-<h3><a href="https://github.com/DevanshSinghBais/Pneumonia_Detection">Pneumonia Detection ↗</a></h3>
-<p><strong>A compact image-classification experiment.</strong><br />A TensorFlow/Keras dense network classifies 128×128 grayscale X-rays as NORMAL or PNEUMONIA. Dataset not included.</p>
-<p><code>IMAGE</code> → <code>DENSE NETWORK</code> → <code>CLASS</code></p>
-<p><code>Python</code> <code>TensorFlow / Keras</code> <code>NumPy</code></p>
-</td>
-</tr>
-</table>
+---
 
-## BUILD MAP
+## `04 / GITHUB SIGNAL`
 
-<p><sub>STACK / VERIFIED IN PUBLIC REPOSITORIES</sub></p>
+<div align="center">
+<img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&hide_border=true&bg_color=00000000&title_color=63ff9b&icon_color=63ff9b&text_color=9aa7a0&rank_icon=github" height="165" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&layout=compact&hide_border=true&bg_color=00000000&title_color=63ff9b&text_color=9aa7a0" height="165" alt="Top languages"/>
+<br/>
+<img src="https://streak-stats.demolab.com?user=DevanshSinghBais&hide_border=true&background=00000000&ring=63ff9b&fire=63ff9b&currStreakLabel=63ff9b&sideLabels=9aa7a0&dates=68756e" height="165" alt="GitHub contribution streak"/>
+</div>
 
-<table width="100%">
-<tr>
-<td valign="top"><p><sub>LANGUAGES</sub></p><code>Python</code> <code>TypeScript</code> <code>C++</code></td>
-<td valign="top"><p><sub>AI / ML / DATA</sub></p><code>TensorFlow · Keras</code> <code>NumPy</code> <code>scikit-learn</code></td>
-</tr>
-<tr>
-<td valign="top"><p><sub>LLM SYSTEMS</sub></p><code>Gemini API</code> <code>Function calling</code> <code>Local knowledge search</code></td>
-<td valign="top"><p><sub>BACKEND / INTERFACES</sub></p><code>Express</code> <code>tRPC</code> <code>React</code> <code>Gradio</code></td>
-</tr>
-</table>
+<br/>
 
-<p><sub>TOOLS / AUTOMATION</sub> &nbsp; <code>GitHub REST API</code> <code>GitHub Actions</code></p>
+<div align="center"><img src="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg" alt="GitHub contribution activity" width="100%"/></div>
 
-## CURRENTLY BUILDING
+---
 
-<p><code>STUDYPILOT / ACTIVE EXPERIMENT</code><br />Tool-using LLM workflows grounded in local notes, with Python helpers that return concrete results.</p>
+## `05 / CURRENTLY BUILDING`
 
-## ENGINEERING PRINCIPLE
+**AI systems that are useful outside the notebook.**
 
-> A model call is easy to make. A useful system makes its inputs, tools, and limits clear.
+- tool-using LLM workflows
+- production-oriented AI backends
+- computer-vision pipelines
+- RAG and agentic systems
+- turning prototypes into deployable products
 
-## GITHUB ACTIVITY
+---
 
-<p><sub>CONTRIBUTIONS / GENERATED WITH GITHUB ACTIONS</sub></p>
+## `06 / PRINCIPLE`
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake.svg" />
-  <img src="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake.svg" alt="Contribution activity shown as a snake animation" width="100%" />
-</picture>
+> **A model call is easy to make. A useful system makes its inputs, tools, failure modes and limits clear.**
 
-<p><sub>RECENT PUBLIC PULL REQUESTS</sub></p>
-<!-- OSS_START -->
-- **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files
-- **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive
-<!-- OSS_END -->
+---
 
-## CONNECT
+## `07 / CONNECT`
 
-<p><a href="https://github.com/DevanshSinghBais">GITHUB</a> &nbsp;·&nbsp; <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LINKEDIN</a> &nbsp;·&nbsp; <a href="mailto:devanshsinghbais111@gmail.com">EMAIL</a> &nbsp;·&nbsp; <a href="https://ecomri.vercel.app">ECOMRI LIVE DEMO</a><br /><sub>B.Tech. Computer Science and Engineering · MANIT Bhopal · 2025–2029</sub></p>
-
-<p align="center"><sub>$ echo "END OF SYSTEMS LOG" &nbsp;·&nbsp; DSB / 01</sub></p>
+<div align="center">
+<a href="https://github.com/DevanshSinghBais">GitHub</a> · <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn</a> · <a href="mailto:devanshsinghbais111@gmail.com">Email</a>
+<br/><br/>
+<sub>B.Tech. Computer Science & Engineering · MANIT Bhopal · 2025–2029</sub>
+</div>
