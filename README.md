@@ -1,179 +1,368 @@
 <div align="center">
 
-<img src="./assets/terminal-header.svg" width="100%" alt="Devansh Singh Bais terminal profile header"/>
+<img src="./assets/terminal-hero.svg" width="100%" alt="Devansh Singh Bais — terminal profile"/>
 
-<p>
-<a href="https://github.com/DevanshSinghBais">GitHub</a> ·
-<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn</a> ·
-<a href="mailto:devanshsinghbais111@gmail.com">Email</a>
-</p>
+<br/>
+
+<a href="https://github.com/DevanshSinghBais"><img src="https://img.shields.io/badge/GITHUB-0a0f0c?style=for-the-badge&logo=github&logoColor=white"/></a>
+<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/"><img src="https://img.shields.io/badge/LINKEDIN-0a0f0c?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
+<a href="mailto:devanshsinghbais111@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0f0c?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
 
 </div>
 
 ```text
-┌──[ devansh@github ]──[ ~/profile ]─────────────────────────────────────────┐
-│                                                                            │
-│  $ ./boot.sh                                                              │
-│                                                                            │
-│  [✓] AI / ML                 [✓] Backend Systems                          │
-│  [✓] LLM Applications        [✓] Computer Vision                         │
-│  [✓] Agentic AI              [✓] Production-minded Engineering            │
-│                                                                            │
-│  mission: turn models + tools + data into useful software.                │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
+┌─[ devansh@github ]─[ ~/profile ]──────────────────────────────────────────────┐
+│ $ ./boot.sh                                                                  │
+│                                                                              │
+│ [OK] loading identity                                                       │
+│ [OK] loading AI / ML stack                                                  │
+│ [OK] loading computer-vision modules                                       │
+│ [OK] loading LLM + agent tooling                                            │
+│ [OK] loading backend systems                                                │
+│                                                                              │
+│ mission: turn models + data + tools into useful software                    │
+│ mode:    learn → build → ship                                               │
+└──────────────────────────────────────────────────────────────────────────────┘
 ```
 
-## `~/projects`
+## `01 / SYSTEM.INFO`
 
-<table>
+<table width="100%">
 <tr>
-<td width="50%" valign="top">
+<td width="55%" valign="top">
 
-### `01` CrowdShield AI
+```text
+$ cat /etc/identity
 
-**Computer vision for crowd safety.**
-
-Multi-camera monitoring with detection, tracking, risk analysis, prediction and operational recommendations.
-
-`YOLOv8` `ByteTrack` `OpenCV` `Node.js` `Express` `MongoDB` `React` `Docker`
-
-<a href="https://github.com/DevanshSinghBais/CrowdSheild_Hackathon">↗ repository</a>
-
-</td>
-<td width="50%" valign="top">
-
-### `02` EcoMRI
-
-**Environmental intelligence platform.**
-
-Turns environmental observations into anomalies, evidence, spatial context and recommended action.
-
-`TypeScript` `React` `tRPC` `Express` `Drizzle`
-
-<a href="https://github.com/DevanshSinghBais/ecomri">↗ repository</a> · <a href="https://ecomri-gsy3klvs.manus.space">↗ live</a>
+NAME       Devansh Singh Bais
+ROLE       AI / ML Engineer · Student
+EDUCATION  B.Tech CSE @ MANIT Bhopal
+FOCUS      LLMs · Computer Vision · Backend
+MODE       building systems, not just demos
+```
 
 </td>
-</tr>
-<tr>
-<td width="50%" valign="top">
+<td width="45%" valign="top">
 
-### `03` StudyPilot
+```text
+$ cat /etc/principles
 
-**Tool-using AI learning agent.**
-
-Routes questions to concrete tools for calculations, notes, study plans, quizzes and data analysis.
-
-`Python` `LLM API` `Function Calling` `Gradio` `NumPy`
-
-<a href="https://github.com/DevanshSinghBais/StudyPilot">↗ repository</a>
-
-</td>
-<td width="50%" valign="top">
-
-### `04` GitHub Repo Explainer
-
-**AI developer tooling.**
-
-Fetches repository READMEs through the GitHub API and turns them into beginner-friendly explanations with Gemini.
-
-`Python` `GitHub REST API` `Gemini` `Jupyter`
-
-<a href="https://github.com/DevanshSinghBais/GitHub-Repo-Explainer">↗ repository</a>
+01  understand the model
+02  build the system around it
+03  expose useful tools
+04  handle failure modes
+05  ship something usable
+```
 
 </td>
 </tr>
 </table>
 
-## `~/stack --all`
+---
 
-> **The complete toolbox — not just the 5 technologies shown by GitHub's language chart.**
-
-| Domain | Stack |
-|---|---|
-| **Languages** | `C++` `Python` `C` `Java` `JavaScript` `TypeScript` `SQL` |
-| **ML / DL** | `PyTorch` `TensorFlow` `scikit-learn` `NumPy` `Pandas` |
-| **Computer Vision** | `OpenCV` `YOLO` `ByteTrack` `Image Processing` |
-| **LLM / GenAI** | `Hugging Face` `Transformers` `RAG` `Vector DBs` `Prompt Engineering` `Function Calling` |
-| **Agents** | `Agentic AI` `Tool Use` `MCP` `LLM Workflows` |
-| **Backend** | `Node.js` `Express` `REST APIs` `tRPC` |
-| **Databases** | `PostgreSQL` `MongoDB` `Redis` |
-| **Frontend** | `React` `HTML` `CSS` |
-| **DevOps / Systems** | `Docker` `Linux` `Git` `GitHub Actions` |
-| **Data / Scientific** | `Pandas` `NumPy` `Matplotlib` `Jupyter` |
+## `02 / STACK`
 
 ```text
-$ stack --tree
-
-AI
-├── Machine Learning
-│   ├── PyTorch
-│   ├── TensorFlow / Keras
-│   └── scikit-learn
-├── Computer Vision
-│   ├── OpenCV
-│   ├── YOLO
-│   └── ByteTrack
-└── LLM Systems
-    ├── Hugging Face / Transformers
-    ├── RAG + Vector Databases
-    ├── Function Calling
-    ├── Agentic AI
-    └── MCP
-
-ENGINEERING
-├── Backend → Node.js → Express → REST / tRPC
-├── Data    → PostgreSQL → MongoDB → Redis
-└── Infra   → Linux → Docker → Git → GitHub Actions
+$ tree /etc/stack --depth=2
 ```
 
-## `~/activity`
+<table width="100%">
+<tr>
+<td width="25%" valign="top">
+
+### `LANGUAGES`
+
+`C++` · `Python`  
+`C` · `Java`  
+`JavaScript` · `TypeScript`  
+`SQL` · `HTML` · `CSS`
+
+</td>
+<td width="25%" valign="top">
+
+### `AI / ML`
+
+`PyTorch`  
+`TensorFlow` · `Keras`  
+`scikit-learn`  
+`NumPy` · `Pandas`  
+`Matplotlib`
+
+</td>
+<td width="25%" valign="top">
+
+### `VISION`
+
+`OpenCV`  
+`YOLO / YOLOv8`  
+`ByteTrack`  
+`Image Classification`  
+`Real-time Inference`
+
+</td>
+<td width="25%" valign="top">
+
+### `LLM SYSTEMS`
+
+`Hugging Face`  
+`Transformers`  
+`RAG` · `Vector DBs`  
+`Function Calling`  
+`Agentic AI` · `MCP`
+
+</td>
+</tr>
+<tr>
+<td width="25%" valign="top">
+
+### `BACKEND`
+
+`Node.js` · `Express`  
+`REST APIs`  
+`PostgreSQL`  
+`MongoDB` · `Redis`
+
+</td>
+<td width="25%" valign="top">
+
+### `WEB`
+
+`React`  
+`TypeScript`  
+`Next.js`  
+`Vite`  
+`Gradio`
+
+</td>
+<td width="25%" valign="top">
+
+### `DEV / INFRA`
+
+`Git` · `GitHub`  
+`Docker` · `Linux`  
+`Jupyter`  
+`GitHub Actions`
+
+</td>
+<td width="25%" valign="top">
+
+### `ENGINEERING`
+
+`APIs` · `Data Pipelines`  
+`Model Deployment`  
+`AI Deployment`  
+`Production AI Systems`
+
+</td>
+</tr>
+</table>
 
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&hide_border=true&bg_color=00000000&title_color=55ff9a&icon_color=55ff9a&text_color=9ba8a4&rank_icon=github" height="165" alt="GitHub stats"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&layout=compact&hide_border=true&bg_color=00000000&title_color=55ff9a&text_color=9ba8a4" height="165" alt="Top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=DevanshSinghBais&hide_border=true&background=00000000&ring=55ff9a&fire=55ff9a&currStreakLabel=55ff9a&sideLabels=9ba8a4&dates=68756e" height="165" alt="GitHub streak"/>
+<img src="https://skillicons.dev/icons?i=cpp,python,c,java,js,ts,html,css,react,nodejs,express,postgres,mongodb,redis,pytorch,tensorflow,opencv,docker,linux,git,github&perline=11" alt="Technology stack"/>
 
 </div>
 
-### contribution trail
+---
 
-<p align="center">
+## `03 / SYSTEMS`
+
+```text
+$ ls -la ./projects
+```
+
+<table width="100%">
+<tr>
+<td width="50%" valign="top">
+
+### `01 // FLAGSHIP`
+
+# 🛡️ CrowdShield AI
+
+**Observe → Understand → Predict → Simulate → Recommend → Optimize**
+
+AI-powered crowd monitoring and management using computer vision, multi-camera processing, tracking, risk analysis and operational recommendations.
+
+`YOLOv8` `ByteTrack` `OpenCV` `Node.js` `Express` `MongoDB` `React` `Docker`
+
+**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/CrowdSheild_Hackathon)**
+
+</td>
+<td width="50%" valign="top">
+
+### `02 // ENVIRONMENTAL INTELLIGENCE`
+
+# 🌍 EcoMRI
+
+Turns environmental observations into anomaly investigations, spatial context, evidence and recommended action.
+
+`TypeScript` `React` `tRPC` `Express` `Drizzle` `Maps`
+
+**[↗ REPOSITORY](https://github.com/DevanshSinghBais/ecomri)** · **[↗ LIVE](https://ecomri-gsy3klvs.manus.space)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `03 // AGENT SYSTEM`
+
+# 🧠 StudyPilot
+
+Tool-using AI learning agent with function calling, knowledge search, study planning, quiz generation, calculations and data analysis.
+
+`Python` `LLM API` `Function Calling` `Gradio` `NumPy`
+
+**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/StudyPilot)**
+
+</td>
+<td width="50%" valign="top">
+
+### `04 // DEVELOPER TOOLING`
+
+# 🔎 GitHub Repo Explainer
+
+Uses the GitHub REST API and Gemini to turn repository documentation into beginner-friendly explanations.
+
+`Python` `Gemini` `GitHub API` `Jupyter`
+
+**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/GitHub-Repo-Explainer)**
+
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+
+### `05 // COMPUTER VISION / ML`
+
+# 🩻 Pneumonia Detection
+
+Chest X-ray classification experiment exploring neural-network based medical image classification.
+
+`Python` `TensorFlow` `OpenCV` `NumPy` `scikit-learn`
+
+**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/Pneumonia_Detection)**
+
+</td>
+<td width="50%" valign="top">
+
+### `06 // TIME SERIES`
+
+# 📈 TSLA LSTM Forecasting
+
+Sequence-modeling experiment using rolling windows, scaling and LSTM forecasting.
+
+`Python` `TensorFlow` `LSTM` `Pandas` `scikit-learn`
+
+**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/TSLA-LSTM-Forecasting)**
+
+</td>
+</tr>
+</table>
+
+---
+
+## `04 / GITHUB.TELEMETRY`
+
+```text
+$ git log --profile --stats
+```
+
+<div align="center">
+
+<img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&hide_border=true&bg_color=00000000&title_color=39ff88&icon_color=39ff88&text_color=cbd7d0&rank_icon=github" height="175" alt="GitHub statistics"/>
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&layout=compact&hide_border=true&bg_color=00000000&title_color=39ff88&text_color=cbd7d0" height="175" alt="Top languages"/>
+
+<br/>
+
+<img src="https://streak-stats.demolab.com?user=DevanshSinghBais&hide_border=true&background=00000000&ring=39ff88&fire=39ff88&currStreakLabel=39ff88&sideLabels=cbd7d0&dates=718077" height="175" alt="GitHub streak"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&bg_color=00000000&color=cbd7d0&line=39ff88&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub activity graph"/>
+
+</div>
+
+---
+
+## `05 / CONTRIBUTION.MATRIX`
+
+```text
+$ watch --color=green github-contributions
+```
+
+<div align="center">
 <img src="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg" width="100%" alt="GitHub contribution snake"/>
-</p>
+</div>
 
-## `~/currently-building`
+---
 
-```text
-┌────────────────────────────────────────────────────────────────────────────┐
-│ ACTIVE                                                                      │
-├────────────────────────────────────────────────────────────────────────────┤
-│                                                                            │
-│  > tool-using LLM workflows                                                │
-│  > production-oriented AI backends                                         │
-│  > computer-vision pipelines                                               │
-│  > RAG + agentic systems                                                   │
-│  > turning hackathon prototypes into deployable products                   │
-│                                                                            │
-└────────────────────────────────────────────────────────────────────────────┘
-```
-
-## `~/education`
-
-**B.Tech. Computer Science & Engineering — MANIT Bhopal** · `2025–2029`
-
-## `~/principles`
-
-> **A model call is easy to make. A useful system makes its inputs, tools, failure modes and limits clear.**
+## `06 / CURRENTLY.RUNNING`
 
 ```text
-$ exit
+$ ps aux | grep devansh
 
-Thanks for visiting.
-
-devansh@github:~$ _
+PID     PROCESS                                  STATUS
+----    ---------------------------------------  --------
+001     agentic-ai / tool-using LLMs             RUNNING
+002     computer-vision / real-time inference    RUNNING
+003     RAG / vector retrieval / MCP             RUNNING
+004     backend / production AI systems           RUNNING
+005     hackathons / open-source                  RUNNING
 ```
+
+<table width="100%">
+<tr>
+<td width="33%" valign="top"><strong>LEARN</strong><br/><code>PyTorch</code> · <code>LLMs</code> · <code>Agents</code></td>
+<td width="33%" valign="top"><strong>BUILD</strong><br/><code>CV</code> · <code>RAG</code> · <code>Backend</code></td>
+<td width="33%" valign="top"><strong>SHIP</strong><br/><code>Docker</code> · <code>APIs</code> · <code>AI Deployment</code></td>
+</tr>
+</table>
+
+---
+
+## `07 / EDUCATION`
+
+```text
+$ cat /etc/education
+
+MANIT Bhopal
+B.Tech — Computer Science & Engineering
+2025 — 2029
+
+focus :: machine learning · systems · software engineering · AI
+```
+
+---
+
+## `08 / CONNECT`
+
+```text
+$ ./connect.sh
+
+[01] GitHub     → github.com/DevanshSinghBais
+[02] LinkedIn   → linkedin.com/in/devansh-singh-bais-748b192b5
+[03] Email      → devanshsinghbais111@gmail.com
+```
+
+<div align="center">
+
+<a href="https://github.com/DevanshSinghBais">GitHub ↗</a> ·
+<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn ↗</a> ·
+<a href="mailto:devanshsinghbais111@gmail.com">Email ↗</a>
+
+</div>
+
+```text
+┌─[ devansh@github ]───────────────────────────────────────────────────────────┐
+│ $ echo "Build systems, not just demos."                                     │
+│                                                                              │
+│ Build. Learn. Ship. Repeat.                                                 │
+│                                                                              │
+│ devansh@github:~$ █                                                          │
+└──────────────────────────────────────────────────────────────────────────────┘
+```
+
+<div align="center"><sub>Terminal session terminated successfully.</sub></div>
