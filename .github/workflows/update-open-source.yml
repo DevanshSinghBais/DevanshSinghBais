@@ -31,7 +31,7 @@ jobs:
 
           # Search for public pull requests authored by you
           query = urllib.parse.quote(
-              f"author:{username} type:pr"
+              f"author:{username} type:pr -repo:{username}/DevanshSinghBais"
           )
 
           url = (
@@ -62,12 +62,12 @@ jobs:
               repo = repo_url.rstrip("/").split("/")[-1]
 
               lines.append(
-                  f"- 🔧 **[{repo}]({url})** — {title}"
+                  f"- **[{repo}]({url})** — {title}"
               )
 
           if not lines:
               lines = [
-                  "- 🚀 No open-source pull requests yet — more contributions coming soon!"
+                  "- No public pull requests found."
               ]
 
           start_marker = "<!-- OSS_START -->"
