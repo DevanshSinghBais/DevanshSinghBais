@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" role="img" aria-labelledby="title desc">
+  <title id="title">Devansh Singh Bais — AI and machine learning engineer in progress</title>
+  <desc id="desc">A compact terminal-inspired profile banner naming Devansh Singh Bais and highlighting LLMs, computer vision, and backend systems.</desc>
+  <rect width="1280" height="250" rx="16" fill="#0D1117"/>
+  <rect x="1" y="1" width="1278" height="248" rx="15" fill="none" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="1278" height="42" rx="15" fill="#161B22"/>
+  <path d="M1 28v15h1278V28" fill="#161B22"/>
+  <circle cx="28" cy="22" r="6" fill="#39FF88"/>
+  <circle cx="50" cy="22" r="6" fill="#00D9A6"/>
+  <circle cx="72" cy="22" r="6" fill="#30363D"/>
+  <text x="105" y="28" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="17">devansh@github: ~/profile</text>
+  <text x="56" y="91" fill="#39FF88" font-family="Consolas, 'Liberation Mono', monospace" font-size="19">$ whoami</text>
+  <text x="56" y="148" fill="#F0F6FC" font-family="Consolas, 'Liberation Mono', monospace" font-size="42" font-weight="700">DEVANSH SINGH BAIS</text>
+  <text x="56" y="187" fill="#00D9A6" font-family="Consolas, 'Liberation Mono', monospace" font-size="21">AI / ML ENGINEER IN PROGRESS</text>
+  <text x="56" y="222" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="17">LLMs  ·  COMPUTER VISION  ·  BACKEND SYSTEMS</text>
+  <path d="M1195 79v128" stroke="#30363D" stroke-width="2"/>
+  <text x="1224" y="108" text-anchor="end" fill="#39FF88" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">LEARN</text>
+  <text x="1224" y="140" text-anchor="end" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">BUILD</text>
+  <text x="1224" y="172" text-anchor="end" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">SHIP</text>
+  <path d="M1200 196h24" stroke="#39FF88" stroke-width="4"/>
+</svg>
