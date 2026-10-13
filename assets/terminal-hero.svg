@@ -1,31 +1,21 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="430" viewBox="0 0 1400 430" role="img" aria-labelledby="t d">
-<title id="t">Devansh Singh Bais — AI and software engineering terminal</title>
-<desc id="d">A dark terminal-inspired engineering profile with system telemetry, AI, backend and computer vision motifs.</desc>
-<defs>
- <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1"><stop stop-color="#050807"/><stop offset=".55" stop-color="#07110c"/><stop offset="1" stop-color="#020403"/></linearGradient>
- <radialGradient id="halo"><stop stop-color="#37ff8b" stop-opacity=".20"/><stop offset="1" stop-color="#37ff8b" stop-opacity="0"/></radialGradient>
- <pattern id="grid" width="36" height="36" patternUnits="userSpaceOnUse"><path d="M36 0H0V36" fill="none" stroke="#48ff9a" stroke-opacity=".045"/></pattern>
- <filter id="blur"><feGaussianBlur stdDeviation="18"/></filter>
-</defs>
-<rect width="1400" height="430" rx="18" fill="url(#bg)"/>
-<rect width="1400" height="430" rx="18" fill="url(#grid)"/>
-<circle cx="1150" cy="220" r="250" fill="url(#halo)"/>
-<g fill="none" stroke="#48ff9a" stroke-opacity=".16">
- <ellipse cx="1150" cy="220" rx="220" ry="105"/>
- <ellipse cx="1150" cy="220" rx="155" ry="220" transform="rotate(56 1150 220)"/>
- <ellipse cx="1150" cy="220" rx="125" ry="205" transform="rotate(-56 1150 220)"/>
-</g>
-<g fill="#48ff9a"><circle cx="1150" cy="220" r="5"/><circle cx="1320" cy="155" r="4"/><circle cx="1050" cy="100" r="3"/><circle cx="970" cy="275" r="4"/><circle cx="1250" cy="335" r="3"/></g>
-<rect x="28" y="22" width="1344" height="38" rx="8" fill="#0a100d" stroke="#48ff9a" stroke-opacity=".20"/>
-<circle cx="50" cy="41" r="6" fill="#ff5f57"/><circle cx="70" cy="41" r="6" fill="#febc2e"/><circle cx="90" cy="41" r="6" fill="#28c840"/>
-<text x="125" y="46" fill="#8aa096" font-family="monospace" font-size="14">devansh@github:~</text><text x="520" y="46" fill="#48ff9a" font-family="monospace" font-size="13">./profile --mode=terminal --status=online</text>
-<text x="72" y="105" fill="#48ff9a" font-family="monospace" font-size="15">$ whoami</text>
-<text x="72" y="158" fill="#f2f7f4" font-family="monospace" font-size="48" font-weight="700">DEVANSH SINGH BAIS</text>
-<text x="75" y="192" fill="#a9e9bd" font-family="monospace" font-size="16">AI / ML  ·  COMPUTER VISION  ·  LLM SYSTEMS  ·  BACKEND</text>
-<text x="75" y="231" fill="#c9d3ce" font-family="Arial, Helvetica, sans-serif" font-size="17">I build practical AI software, developer tools and product systems.</text>
-<text x="75" y="262" fill="#738078" font-family="monospace" font-size="14">MODEL → DATA → TOOLS → API → PRODUCT</text>
-<rect x="72" y="292" width="300" height="40" rx="7" fill="#48ff9a" fill-opacity=".06" stroke="#48ff9a" stroke-opacity=".35"/>
-<text x="91" y="317" fill="#48ff9a" font-family="monospace" font-size="13">STATUS :: BUILDING + SHIPPING</text>
-<text x="75" y="370" fill="#617068" font-family="monospace" font-size="12">B.Tech CSE @ MANIT Bhopal  //  2025—2029</text>
-<text x="1075" y="390" fill="#5f7168" font-family="monospace" font-size="12">DSB::AI//SYSTEMS</text>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1280 250" role="img" aria-labelledby="title desc">
+  <title id="title">Devansh Singh Bais — AI and machine learning engineer in progress</title>
+  <desc id="desc">A compact terminal-inspired profile banner naming Devansh Singh Bais and highlighting LLMs, computer vision, and backend systems.</desc>
+  <rect width="1280" height="250" rx="16" fill="#0D1117"/>
+  <rect x="1" y="1" width="1278" height="248" rx="15" fill="none" stroke="#30363D" stroke-width="2"/>
+  <rect x="1" y="1" width="1278" height="42" rx="15" fill="#161B22"/>
+  <path d="M1 28v15h1278V28" fill="#161B22"/>
+  <circle cx="28" cy="22" r="6" fill="#39FF88"/>
+  <circle cx="50" cy="22" r="6" fill="#00D9A6"/>
+  <circle cx="72" cy="22" r="6" fill="#30363D"/>
+  <text x="105" y="28" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="17">devansh@github: ~/profile</text>
+  <text x="56" y="91" fill="#39FF88" font-family="Consolas, 'Liberation Mono', monospace" font-size="19">$ whoami</text>
+  <text x="56" y="148" fill="#F0F6FC" font-family="Consolas, 'Liberation Mono', monospace" font-size="42" font-weight="700">DEVANSH SINGH BAIS</text>
+  <text x="56" y="187" fill="#00D9A6" font-family="Consolas, 'Liberation Mono', monospace" font-size="21">AI / ML ENGINEER IN PROGRESS</text>
+  <text x="56" y="222" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="17">LLMs  ·  COMPUTER VISION  ·  BACKEND SYSTEMS</text>
+  <path d="M1195 79v128" stroke="#30363D" stroke-width="2"/>
+  <text x="1224" y="108" text-anchor="end" fill="#39FF88" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">LEARN</text>
+  <text x="1224" y="140" text-anchor="end" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">BUILD</text>
+  <text x="1224" y="172" text-anchor="end" fill="#8B949E" font-family="Consolas, 'Liberation Mono', monospace" font-size="16">SHIP</text>
+  <path d="M1200 196h24" stroke="#39FF88" stroke-width="4"/>
 </svg>

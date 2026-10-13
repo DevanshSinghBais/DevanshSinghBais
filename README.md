@@ -1,368 +1,131 @@
-<div align="center">
+<p align="center">
+  <img src="./assets/terminal-hero.svg" width="100%" alt="Devansh Singh Bais — AI and machine learning engineer in progress, focused on LLMs, computer vision, and backend systems." />
+</p>
 
-<img src="./assets/terminal-hero.svg" width="100%" alt="Devansh Singh Bais — terminal profile"/>
-
-<br/>
-
-<a href="https://github.com/DevanshSinghBais"><img src="https://img.shields.io/badge/GITHUB-0a0f0c?style=for-the-badge&logo=github&logoColor=white"/></a>
-<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/"><img src="https://img.shields.io/badge/LINKEDIN-0a0f0c?style=for-the-badge&logo=linkedin&logoColor=0A66C2"/></a>
-<a href="mailto:devanshsinghbais111@gmail.com"><img src="https://img.shields.io/badge/EMAIL-0a0f0c?style=for-the-badge&logo=gmail&logoColor=EA4335"/></a>
-
-</div>
+<p align="center">
+  <a href="https://github.com/DevanshSinghBais">GitHub</a> ·
+  <a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn</a> ·
+  <a href="mailto:devanshsinghbais111@gmail.com">Email</a>
+</p>
 
 ```text
-┌─[ devansh@github ]─[ ~/profile ]──────────────────────────────────────────────┐
-│ $ ./boot.sh                                                                  │
-│                                                                              │
-│ [OK] loading identity                                                       │
-│ [OK] loading AI / ML stack                                                  │
-│ [OK] loading computer-vision modules                                       │
-│ [OK] loading LLM + agent tooling                                            │
-│ [OK] loading backend systems                                                │
-│                                                                              │
-│ mission: turn models + data + tools into useful software                    │
-│ mode:    learn → build → ship                                               │
-└──────────────────────────────────────────────────────────────────────────────┘
+devansh@github:~$ whoami
+AI/ML engineer in progress · B.Tech CSE, MANIT Bhopal
+building practical AI tools, vision systems, and backend applications
 ```
 
-## `01 / SYSTEM.INFO`
+## About
 
-<table width="100%">
-<tr>
-<td width="55%" valign="top">
+I like turning models and data into useful software. My project work spans deep learning, computer vision, LLM-powered tools, and the APIs and interfaces around them. I’m especially interested in reliable inference workflows and clear boundaries between a prototype and a production system.
 
-```text
-$ cat /etc/identity
+### Current focus
 
-NAME       Devansh Singh Bais
-ROLE       AI / ML Engineer · Student
-EDUCATION  B.Tech CSE @ MANIT Bhopal
-FOCUS      LLMs · Computer Vision · Backend
-MODE       building systems, not just demos
+- Building with LLMs, tool use, and retrieval workflows.
+- Improving computer-vision inference and multi-object tracking.
+- Learning to design maintainable APIs and AI-backed systems.
+
+## Stack
+
+The first group reflects technologies visible in inspected projects and repository configuration. The second is a learning and exploration list, not a claim of mastery.
+
+**Used in project work**
+
+- **Languages and web:** `Python` · `JavaScript` · `TypeScript` · `SQL` · `HTML` · `CSS`
+- **ML and vision:** `TensorFlow` · `NumPy` · `Pandas` · `Scikit-learn` · `OpenCV` · `YOLO` · `YOLOv8` · `ByteTrack`
+- **LLM and backend:** `Gemini API` · `Node.js` · `Express.js` · `REST APIs` · `API integration` · `React`
+- **Data and tools:** `PostgreSQL` · `MongoDB` · `Git` · `GitHub` · `Docker` · `Linux` · `Jupyter Notebook` · `Visual Studio Code` · `GitHub Actions`
+
+**Learning and exploring**
+
+- **Languages and ML:** `C++` · `C` · `Java` · `PyTorch` · `Transformers`
+- **LLMs:** `Hugging Face` · `Large Language Models (LLMs)` · `Generative AI` · `OpenAI API` · `prompt engineering` · `Retrieval-Augmented Generation (RAG)` · `embeddings` · `vector databases` · `agentic AI` · `AI agents`
+- **Systems:** `Redis` · `backend architecture` · `AI deployment` · `model inference` · `model evaluation` · `production-oriented AI systems` · `computer vision pipelines` · `data processing` · `real-time detection pipelines`
+
+## Featured projects
+
+### CrowdShield AI · Team QBurn
+
+Crowd monitoring prototype that combines camera-based detections and tracking with risk signals, short-term projections, simulations, and route recommendations. It uses YOLOv8 and ByteTrack for per-camera tracking, derives movement and line-crossing flow signals, and applies weighted risk inputs. Its 10/20/30-minute projections are bounded slope heuristics; simulation and Dijkstra routing use a demo map, not validated venue-safety measurements.
+
+`Python` · `OpenCV` · `YOLOv8` · `ByteTrack` · `Mesa` · `NetworkX` · `FastAPI` · `React` · `TypeScript`
+
+[Repository](https://github.com/DevanshSinghBais/CrowdSheild_AI) · [SISTec Innovation Hackathon](https://www.sistecrsih.in/explore) · [team recap](https://in.linkedin.com/in/siddharth-tomar-1b2502325)
+
+**Achievement:** Team QBurn (styled `QYBurn` in the participant recap) won the SISTec Bhopal Hackathon 2026. CrowdShield’s demo data and risk assumptions are illustrative; see the repository documentation for scope and limitations.
+
+The CrowdShield flow, at a glance:
+
+```mermaid
+flowchart LR
+  A[Camera frames] --> B[YOLOv8 detections]
+  B --> C[ByteTrack per-camera tracks]
+  C --> D[Counts, speed and flow]
+  D --> E[Risk scores and bounded projections]
+  E --> F[Mesa simulation and Dijkstra routing]
+  E --> G[FastAPI state and WebSocket]
+  G --> H[React operations dashboard]
 ```
 
-</td>
-<td width="45%" valign="top">
+See the official event details and participant recap above.
 
-```text
-$ cat /etc/principles
+### EcoMRI
 
-01  understand the model
-02  build the system around it
-03  expose useful tools
-04  handle failure modes
-05  ship something usable
-```
+Environmental monitoring prototype with station maps, anomaly views, trends, and recommendations. Its README identifies the displayed environmental values and recommendations as simulated.
 
-</td>
-</tr>
-</table>
+`TypeScript` · `React` · `Node.js` · `Express` · `tRPC` · `Drizzle`
 
----
+[Repository](https://github.com/DevanshSinghBais/ecomri)
 
-## `02 / STACK`
+### StudyPilot
 
-```text
-$ tree /etc/stack --depth=2
-```
+Learning assistant prototype with LLM function calling, local knowledge search, study planning, quizzes, calculations, and basic data analysis. RAG and a production backend are listed as roadmap work in its repository.
 
-<table width="100%">
-<tr>
-<td width="25%" valign="top">
+`Python` · `LLM API` · `Gradio`
 
-### `LANGUAGES`
+[Repository](https://github.com/DevanshSinghBais/StudyPilot)
 
-`C++` · `Python`  
-`C` · `Java`  
-`JavaScript` · `TypeScript`  
-`SQL` · `HTML` · `CSS`
+### GitHub Repo Explainer
 
-</td>
-<td width="25%" valign="top">
+Fetches repository documentation through the GitHub REST API and uses Gemini to stream a beginner-friendly explanation.
 
-### `AI / ML`
+`Python` · `GitHub REST API` · `Gemini API` · `Jupyter Notebook`
 
-`PyTorch`  
-`TensorFlow` · `Keras`  
-`scikit-learn`  
-`NumPy` · `Pandas`  
-`Matplotlib`
+[Repository](https://github.com/DevanshSinghBais/GitHub-Repo-Explainer)
 
-</td>
-<td width="25%" valign="top">
+### More experiments
 
-### `VISION`
+- [Pneumonia Detection](https://github.com/DevanshSinghBais/Pneumonia_Detection) — a TensorFlow/Keras dense neural-network experiment on flattened 128×128 grayscale chest X-rays; the repository reports no validated performance claim.
+- [TSLA LSTM Forecasting](https://github.com/DevanshSinghBais/TSLA-LSTM-Forecasting) — an LSTM exercise that uses historical Tesla closing prices to estimate a next-day close; it does not establish investment or forecasting performance.
 
-`OpenCV`  
-`YOLO / YOLOv8`  
-`ByteTrack`  
-`Image Classification`  
-`Real-time Inference`
+## GitHub activity
 
-</td>
-<td width="25%" valign="top">
+<p>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=39FF88&amp;icon_color=00D9A6&amp;text_color=F0F6FC" height="170" alt="GitHub statistics for DevanshSinghBais" />
+  </a>
+  <a href="https://github.com/anuraghazra/github-readme-stats">
+    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=39FF88&amp;text_color=F0F6FC" height="170" alt="Most-used languages for DevanshSinghBais" />
+  </a>
+</p>
 
-### `LLM SYSTEMS`
+GitHub’s native contribution graph remains available on the [profile overview](https://github.com/DevanshSinghBais). Statistics cards depend on the public GitHub Readme Stats service; they may be unavailable or rate-limited. A contribution-streak card is omitted until its endpoint can be relied on.
 
-`Hugging Face`  
-`Transformers`  
-`RAG` · `Vector DBs`  
-`Function Calling`  
-`Agentic AI` · `MCP`
+### Contribution snake
 
-</td>
-</tr>
-<tr>
-<td width="25%" valign="top">
+![Animated contribution snake for DevanshSinghBais](https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg)
 
-### `BACKEND`
+The snake is generated daily by [`.github/workflows/snake.yml`](./.github/workflows/snake.yml) and published to the `output` branch. If the image is missing, the workflow has not yet completed successfully or repository Actions permissions need attention; see [maintenance notes](./PROFILE_MAINTENANCE.md).
 
-`Node.js` · `Express`  
-`REST APIs`  
-`PostgreSQL`  
-`MongoDB` · `Redis`
+## Education and contact
 
-</td>
-<td width="25%" valign="top">
+**B.Tech, Computer Science and Engineering · MANIT Bhopal**
 
-### `WEB`
+For professional contact, email [devanshsinghbais111@gmail.com](mailto:devanshsinghbais111@gmail.com), or connect on [LinkedIn](https://www.linkedin.com/in/devansh-singh-bais-748b192b5/). The profile README is maintained in the [DevanshSinghBais repository](https://github.com/DevanshSinghBais/DevanshSinghBais).
 
-`React`  
-`TypeScript`  
-`Next.js`  
-`Vite`  
-`Gradio`
+## Open-source contributions
 
-</td>
-<td width="25%" valign="top">
+<!-- OSS_START -->
+Automatically updated by GitHub Actions from public pull requests authored by this account.
+<!-- OSS_END -->
 
-### `DEV / INFRA`
-
-`Git` · `GitHub`  
-`Docker` · `Linux`  
-`Jupyter`  
-`GitHub Actions`
-
-</td>
-<td width="25%" valign="top">
-
-### `ENGINEERING`
-
-`APIs` · `Data Pipelines`  
-`Model Deployment`  
-`AI Deployment`  
-`Production AI Systems`
-
-</td>
-</tr>
-</table>
-
-<div align="center">
-
-<img src="https://skillicons.dev/icons?i=cpp,python,c,java,js,ts,html,css,react,nodejs,express,postgres,mongodb,redis,pytorch,tensorflow,opencv,docker,linux,git,github&perline=11" alt="Technology stack"/>
-
-</div>
-
----
-
-## `03 / SYSTEMS`
-
-```text
-$ ls -la ./projects
-```
-
-<table width="100%">
-<tr>
-<td width="50%" valign="top">
-
-### `01 // FLAGSHIP`
-
-# 🛡️ CrowdShield AI
-
-**Observe → Understand → Predict → Simulate → Recommend → Optimize**
-
-AI-powered crowd monitoring and management using computer vision, multi-camera processing, tracking, risk analysis and operational recommendations.
-
-`YOLOv8` `ByteTrack` `OpenCV` `Node.js` `Express` `MongoDB` `React` `Docker`
-
-**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/CrowdSheild_Hackathon)**
-
-</td>
-<td width="50%" valign="top">
-
-### `02 // ENVIRONMENTAL INTELLIGENCE`
-
-# 🌍 EcoMRI
-
-Turns environmental observations into anomaly investigations, spatial context, evidence and recommended action.
-
-`TypeScript` `React` `tRPC` `Express` `Drizzle` `Maps`
-
-**[↗ REPOSITORY](https://github.com/DevanshSinghBais/ecomri)** · **[↗ LIVE](https://ecomri-gsy3klvs.manus.space)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### `03 // AGENT SYSTEM`
-
-# 🧠 StudyPilot
-
-Tool-using AI learning agent with function calling, knowledge search, study planning, quiz generation, calculations and data analysis.
-
-`Python` `LLM API` `Function Calling` `Gradio` `NumPy`
-
-**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/StudyPilot)**
-
-</td>
-<td width="50%" valign="top">
-
-### `04 // DEVELOPER TOOLING`
-
-# 🔎 GitHub Repo Explainer
-
-Uses the GitHub REST API and Gemini to turn repository documentation into beginner-friendly explanations.
-
-`Python` `Gemini` `GitHub API` `Jupyter`
-
-**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/GitHub-Repo-Explainer)**
-
-</td>
-</tr>
-<tr>
-<td width="50%" valign="top">
-
-### `05 // COMPUTER VISION / ML`
-
-# 🩻 Pneumonia Detection
-
-Chest X-ray classification experiment exploring neural-network based medical image classification.
-
-`Python` `TensorFlow` `OpenCV` `NumPy` `scikit-learn`
-
-**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/Pneumonia_Detection)**
-
-</td>
-<td width="50%" valign="top">
-
-### `06 // TIME SERIES`
-
-# 📈 TSLA LSTM Forecasting
-
-Sequence-modeling experiment using rolling windows, scaling and LSTM forecasting.
-
-`Python` `TensorFlow` `LSTM` `Pandas` `scikit-learn`
-
-**[↗ VIEW REPOSITORY](https://github.com/DevanshSinghBais/TSLA-LSTM-Forecasting)**
-
-</td>
-</tr>
-</table>
-
----
-
-## `04 / GITHUB.TELEMETRY`
-
-```text
-$ git log --profile --stats
-```
-
-<div align="center">
-
-<img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&hide_border=true&bg_color=00000000&title_color=39ff88&icon_color=39ff88&text_color=cbd7d0&rank_icon=github" height="175" alt="GitHub statistics"/>
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&layout=compact&hide_border=true&bg_color=00000000&title_color=39ff88&text_color=cbd7d0" height="175" alt="Top languages"/>
-
-<br/>
-
-<img src="https://streak-stats.demolab.com?user=DevanshSinghBais&hide_border=true&background=00000000&ring=39ff88&fire=39ff88&currStreakLabel=39ff88&sideLabels=cbd7d0&dates=718077" height="175" alt="GitHub streak"/>
-
-</div>
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&bg_color=00000000&color=cbd7d0&line=39ff88&point=ffffff&area=true&hide_border=true" width="100%" alt="GitHub activity graph"/>
-
-</div>
-
----
-
-## `05 / CONTRIBUTION.MATRIX`
-
-```text
-$ watch --color=green github-contributions
-```
-
-<div align="center">
-<img src="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg" width="100%" alt="GitHub contribution snake"/>
-</div>
-
----
-
-## `06 / CURRENTLY.RUNNING`
-
-```text
-$ ps aux | grep devansh
-
-PID     PROCESS                                  STATUS
-----    ---------------------------------------  --------
-001     agentic-ai / tool-using LLMs             RUNNING
-002     computer-vision / real-time inference    RUNNING
-003     RAG / vector retrieval / MCP             RUNNING
-004     backend / production AI systems           RUNNING
-005     hackathons / open-source                  RUNNING
-```
-
-<table width="100%">
-<tr>
-<td width="33%" valign="top"><strong>LEARN</strong><br/><code>PyTorch</code> · <code>LLMs</code> · <code>Agents</code></td>
-<td width="33%" valign="top"><strong>BUILD</strong><br/><code>CV</code> · <code>RAG</code> · <code>Backend</code></td>
-<td width="33%" valign="top"><strong>SHIP</strong><br/><code>Docker</code> · <code>APIs</code> · <code>AI Deployment</code></td>
-</tr>
-</table>
-
----
-
-## `07 / EDUCATION`
-
-```text
-$ cat /etc/education
-
-MANIT Bhopal
-B.Tech — Computer Science & Engineering
-2025 — 2029
-
-focus :: machine learning · systems · software engineering · AI
-```
-
----
-
-## `08 / CONNECT`
-
-```text
-$ ./connect.sh
-
-[01] GitHub     → github.com/DevanshSinghBais
-[02] LinkedIn   → linkedin.com/in/devansh-singh-bais-748b192b5
-[03] Email      → devanshsinghbais111@gmail.com
-```
-
-<div align="center">
-
-<a href="https://github.com/DevanshSinghBais">GitHub ↗</a> ·
-<a href="https://www.linkedin.com/in/devansh-singh-bais-748b192b5/">LinkedIn ↗</a> ·
-<a href="mailto:devanshsinghbais111@gmail.com">Email ↗</a>
-
-</div>
-
-```text
-┌─[ devansh@github ]───────────────────────────────────────────────────────────┐
-│ $ echo "Build systems, not just demos."                                     │
-│                                                                              │
-│ Build. Learn. Ship. Repeat.                                                 │
-│                                                                              │
-│ devansh@github:~$ █                                                          │
-└──────────────────────────────────────────────────────────────────────────────┘
-```
-
-<div align="center"><sub>Terminal session terminated successfully.</sub></div>
+<p align="center"><sub>Build carefully. Ship useful things.</sub></p>
