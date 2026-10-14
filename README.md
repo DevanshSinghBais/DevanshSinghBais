@@ -125,7 +125,8 @@ For professional contact, email [devanshsinghbais111@gmail.com](mailto:devanshsi
 ## Open-source contributions
 
 <!-- OSS_START -->
-Automatically updated by GitHub Actions from public pull requests authored by this account.
+- **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files
+- **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive
 <!-- OSS_END -->
 
 <p align="center"><sub>Build carefully. Ship useful things.</sub></p>
