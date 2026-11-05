@@ -190,10 +190,9 @@ Fetches repository documentation using the GitHub REST API and uses Gemini to ge
 I believe contributing to open source is one of the best ways to understand real-world software engineering.
 
 <!-- OSS_START -->
-
-* **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files.
-* **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive.
-
+- **[first-contributions](https://github.com/firstcontributions/first-contributions/pull/127968)** — name to Contributors list
+- **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files
+- **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive
 <!-- OSS_END -->
 
 ---
