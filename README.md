@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="./assets/terminal-hero.svg" width="100%" alt="Devansh Singh Bais — AI and machine learning engineer in progress, focused on LLMs, computer vision, and backend systems." />
+  <img src="./assets/terminal-hero.svg" width="100%" alt="Devansh Singh Bais — AI/ML Engineer in Progress" />
 </p>
 
 <p align="center">
@@ -8,125 +8,221 @@
   <a href="mailto:devanshsinghbais111@gmail.com">Email</a>
 </p>
 
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=DevanshSinghBais&style=flat-square&color=00D9A6&label=PROFILE+VIEWS" alt="Profile views" />
+</p>
+
 ```text
 devansh@github:~$ whoami
+
 AI/ML engineer in progress · B.Tech CSE, MANIT Bhopal
-building practical AI tools, vision systems, and backend applications
+
+Building practical AI systems, intelligent applications,
+computer vision pipelines and scalable backend services.
 ```
 
-## About
+---
 
-I like turning models and data into useful software. My project work spans deep learning, computer vision, LLM-powered tools, and the APIs and interfaces around them. I’m especially interested in reliable inference workflows and clear boundaries between a prototype and a production system.
+## `$ about --me`
 
-### Current focus
+I enjoy turning models, algorithms and data into useful software.
 
-- Building with LLMs, tool use, and retrieval workflows.
-- Improving computer-vision inference and multi-object tracking.
-- Learning to design maintainable APIs and AI-backed systems.
+My interests span **Machine Learning, Deep Learning, Computer Vision, LLMs and Backend Engineering**. I like understanding how things work beneath the abstractions, experimenting with architectures and building systems that go beyond isolated notebooks.
 
-## Stack
+Currently focused on:
 
-The first group reflects technologies visible in inspected projects and repository configuration. The second is a learning and exploration list, not a claim of mastery.
+* Building with LLMs, tool calling and retrieval workflows.
+* Understanding neural networks and deep learning architectures.
+* Developing computer vision systems with detection and tracking.
+* Designing maintainable APIs and AI-backed applications.
+* Exploring the intersection of AI research and practical engineering.
 
-**Used in project work**
+---
 
-- **Languages and web:** `Python` · `JavaScript` · `TypeScript` · `SQL` · `HTML` · `CSS`
-- **ML and vision:** `TensorFlow` · `NumPy` · `Pandas` · `Scikit-learn` · `OpenCV` · `YOLO` · `YOLOv8` · `ByteTrack`
-- **LLM and backend:** `Gemini API` · `Node.js` · `Express.js` · `REST APIs` · `API integration` · `React`
-- **Data and tools:** `PostgreSQL` · `MongoDB` · `Git` · `GitHub` · `Docker` · `Linux` · `Jupyter Notebook` · `Visual Studio Code` · `GitHub Actions`
+## `$ tech-stack`
 
-**Learning and exploring**
+Technologies I've worked with and technologies I'm actively exploring.
 
-- **Languages and ML:** `C++` · `C` · `Java` · `PyTorch` · `Transformers`
-- **LLMs:** `Hugging Face` · `Large Language Models (LLMs)` · `Generative AI` · `OpenAI API` · `prompt engineering` · `Retrieval-Augmented Generation (RAG)` · `embeddings` · `vector databases` · `agentic AI` · `AI agents`
-- **Systems:** `Redis` · `backend architecture` · `AI deployment` · `model inference` · `model evaluation` · `production-oriented AI systems` · `computer vision pipelines` · `data processing` · `real-time detection pipelines`
+### Languages
 
-## Featured projects
+<p>
+  <img src="https://skillicons.dev/icons?i=cpp,c,python,java,js,ts,html,css" />
+</p>
 
-### CrowdShield AI · Team QBurn
+### Machine Learning & Computer Vision
 
-Crowd monitoring prototype that combines camera-based detections and tracking with risk signals, short-term projections, simulations, and route recommendations. It uses YOLOv8 and ByteTrack for per-camera tracking, derives movement and line-crossing flow signals, and applies weighted risk inputs. Its 10/20/30-minute projections are bounded slope heuristics; simulation and Dijkstra routing use a demo map, not validated venue-safety measurements.
+<p>
+  <img src="https://skillicons.dev/icons?i=pytorch,tensorflow,opencv" />
+  <img src="https://img.shields.io/badge/YOLO-00FFFF?style=flat-square&logoColor=black" />
+  <img src="https://img.shields.io/badge/ByteTrack-Tracking-2D3748?style=flat-square" />
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat-square&logo=scikitlearn&logoColor=white" />
+  <img src="https://img.shields.io/badge/NumPy-013243?style=flat-square&logo=numpy&logoColor=white" />
+  <img src="https://img.shields.io/badge/Pandas-150458?style=flat-square&logo=pandas&logoColor=white" />
+</p>
 
-`Python` · `OpenCV` · `YOLOv8` · `ByteTrack` · `Mesa` · `NetworkX` · `FastAPI` · `React` · `TypeScript`
+### LLMs & Generative AI
 
-[Repository](https://github.com/DevanshSinghBais/CrowdSheild_AI) · [SISTec Innovation Hackathon](https://www.sistecrsih.in/explore) · [team recap](https://in.linkedin.com/in/siddharth-tomar-1b2502325)
+<p>
+  <img src="https://skillicons.dev/icons?i=huggingface" />
+  <img src="https://img.shields.io/badge/LLMs-8A2BE2?style=flat-square" />
+  <img src="https://img.shields.io/badge/RAG-0D9488?style=flat-square" />
+  <img src="https://img.shields.io/badge/Embeddings-6366F1?style=flat-square" />
+  <img src="https://img.shields.io/badge/Vector_Databases-2563EB?style=flat-square" />
+  <img src="https://img.shields.io/badge/Agentic_AI-9333EA?style=flat-square" />
+  <img src="https://img.shields.io/badge/Prompt_Engineering-0EA5E9?style=flat-square" />
+  <img src="https://img.shields.io/badge/Gemini_API-4285F4?style=flat-square&logo=googlegemini&logoColor=white" />
+  <img src="https://img.shields.io/badge/OpenAI_API-412991?style=flat-square&logo=openai&logoColor=white" />
+</p>
 
-**Achievement:** Team QBurn (styled `QYBurn` in the participant recap) won the SISTec Bhopal Hackathon 2026. CrowdShield’s demo data and risk assumptions are illustrative; see the repository documentation for scope and limitations.
+### Backend & Databases
 
-The CrowdShield flow, at a glance:
+<p>
+  <img src="https://skillicons.dev/icons?i=nodejs,express,fastapi,postgres,mongodb,redis" />
+  <img src="https://img.shields.io/badge/REST_APIs-009688?style=flat-square" />
+  <img src="https://img.shields.io/badge/tRPC-2596BE?style=flat-square" />
+</p>
 
-```mermaid
-flowchart LR
-  A[Camera frames] --> B[YOLOv8 detections]
-  B --> C[ByteTrack per-camera tracks]
-  C --> D[Counts, speed and flow]
-  D --> E[Risk scores and bounded projections]
-  E --> F[Mesa simulation and Dijkstra routing]
-  E --> G[FastAPI state and WebSocket]
-  G --> H[React operations dashboard]
-```
+### Development & Infrastructure
 
-See the official event details and participant recap above.
+<p>
+  <img src="https://skillicons.dev/icons?i=git,github,docker,linux,vscode,postman,jupyter,react,ts,vercel" />
+</p>
 
-### EcoMRI
+---
 
-Environmental monitoring prototype with station maps, anomaly views, trends, and recommendations. Its README identifies the displayed environmental values and recommendations as simulated.
+## `$ projects --featured`
 
-`TypeScript` · `React` · `Node.js` · `Express` · `tRPC` · `Drizzle`
+### 01. CrowdShield AI
+
+**AI-powered crowd monitoring and risk intelligence platform**
+
+An intelligent crowd-management prototype combining real-time person detection, multi-object tracking, crowd-flow analysis, risk scoring, short-term projections and route recommendations.
+
+**Core implementation:**
+
+* YOLOv8 for person detection.
+* ByteTrack for multi-object tracking.
+* Crowd density, movement speed and line-crossing analysis.
+* Weighted risk scoring and 10/20/30-minute projections.
+* Mesa-based agent simulation and Dijkstra route planning.
+* FastAPI backend with a React operations dashboard.
+
+`Python` `OpenCV` `YOLOv8` `ByteTrack` `Mesa` `NetworkX` `FastAPI` `React` `TypeScript`
+
+[Repository](https://github.com/DevanshSinghBais/CrowdSheild_AI) · [SISTec Innovation Hackathon](https://www.sistecrsih.in/explore)
+
+**Achievement:** Team QBurn won the SISTec Bhopal Hackathon 2026.
+
+*Note: Risk assumptions, projections and simulation outputs are prototype-level, not validated venue-safety measurements.*
+
+---
+
+### 02. EcoMRI
+
+**Environmental monitoring and intelligence platform**
+
+An environmental monitoring prototype featuring station maps, anomaly views, trend analysis and recommendations.
+
+`TypeScript` `React` `Node.js` `Express` `tRPC` `Drizzle`
 
 [Repository](https://github.com/DevanshSinghBais/ecomri)
 
-### StudyPilot
+---
 
-Learning assistant prototype with LLM function calling, local knowledge search, study planning, quizzes, calculations, and basic data analysis. RAG and a production backend are listed as roadmap work in its repository.
+### 03. StudyPilot
 
-`Python` · `LLM API` · `Gradio`
+**AI-powered learning assistant**
+
+A learning assistant prototype incorporating LLM function calling, local knowledge search, study planning, quizzes, calculations and basic data analysis.
+
+`Python` `LLM APIs` `Gradio`
 
 [Repository](https://github.com/DevanshSinghBais/StudyPilot)
 
-### GitHub Repo Explainer
+---
 
-Fetches repository documentation through the GitHub REST API and uses Gemini to stream a beginner-friendly explanation.
+### 04. GitHub Repo Explainer
 
-`Python` · `GitHub REST API` · `Gemini API` · `Jupyter Notebook`
+**Making unfamiliar repositories easier to understand**
+
+Fetches repository documentation using the GitHub REST API and uses Gemini to generate beginner-friendly explanations.
+
+`Python` `GitHub REST API` `Gemini API` `Jupyter Notebook`
 
 [Repository](https://github.com/DevanshSinghBais/GitHub-Repo-Explainer)
 
+---
+
 ### More experiments
 
-- [Pneumonia Detection](https://github.com/DevanshSinghBais/Pneumonia_Detection) — a TensorFlow/Keras dense neural-network experiment on flattened 128×128 grayscale chest X-rays; the repository reports no validated performance claim.
-- [TSLA LSTM Forecasting](https://github.com/DevanshSinghBais/TSLA-LSTM-Forecasting) — an LSTM exercise that uses historical Tesla closing prices to estimate a next-day close; it does not establish investment or forecasting performance.
+| Project                                                                            | Description                                     | Technologies      |
+| ---------------------------------------------------------------------------------- | ----------------------------------------------- | ----------------- |
+| [Pneumonia Detection](https://github.com/DevanshSinghBais/Pneumonia_Detection)     | Neural-network experiment on chest X-ray images | TensorFlow, Keras |
+| [TSLA LSTM Forecasting](https://github.com/DevanshSinghBais/TSLA-LSTM-Forecasting) | Next-day stock-price prediction experiment      | Python, LSTM      |
 
-## GitHub activity
+---
 
-<p>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&amp;show_icons=true&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=39FF88&amp;icon_color=00D9A6&amp;text_color=F0F6FC" height="170" alt="GitHub statistics for DevanshSinghBais" />
+## `$ github --statistics`
+
+<p align="center">
+  <a href="https://github.com/DevanshSinghBais">
+    <img height="180" src="https://github-readme-stats.vercel.app/api?username=DevanshSinghBais&show_icons=true&hide_border=true&bg_color=0D1117&title_color=39FF88&icon_color=00D9A6&text_color=F0F6FC&include_all_commits=true" alt="GitHub statistics" />
   </a>
-  <a href="https://github.com/anuraghazra/github-readme-stats">
-    <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&amp;layout=compact&amp;hide_border=true&amp;bg_color=0D1117&amp;title_color=39FF88&amp;text_color=F0F6FC" height="170" alt="Most-used languages for DevanshSinghBais" />
+  <a href="https://github.com/DevanshSinghBais">
+    <img height="180" src="https://github-readme-stats.vercel.app/api/top-langs/?username=DevanshSinghBais&layout=compact&hide_border=true&bg_color=0D1117&title_color=39FF88&text_color=F0F6FC&langs_count=8" alt="Most-used programming languages" />
   </a>
 </p>
 
-GitHub’s native contribution graph remains available on the [profile overview](https://github.com/DevanshSinghBais). Statistics cards depend on the public GitHub Readme Stats service; they may be unavailable or rate-limited. A contribution-streak card is omitted until its endpoint can be relied on.
+<p align="center">
+  <img width="70%" src="https://streak-stats.demolab.com?user=DevanshSinghBais&theme=dark&hide_border=true&background=0D1117&ring=39FF88&fire=00D9A6&currStreakLabel=39FF88" alt="GitHub contribution streak" />
+</p>
 
-### Contribution snake
+<p align="center">
+  <img width="95%" src="https://github-readme-activity-graph.vercel.app/graph?username=DevanshSinghBais&bg_color=0D1117&color=39FF88&line=00D9A6&point=FFFFFF&area=true&hide_border=true" alt="GitHub contribution activity graph" />
+</p>
 
-![Animated contribution snake for DevanshSinghBais](https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg)
+*Statistics and activity visualizations are provided by external services and may be affected by rate limits or availability. GitHub's native contribution calendar remains available on the profile overview.*
 
-The snake is generated daily by [`.github/workflows/snake.yml`](./.github/workflows/snake.yml) and published to the `output` branch. If the image is missing, the workflow has not yet completed successfully or repository Actions permissions need attention; see [maintenance notes](./PROFILE_MAINTENANCE.md).
+---
 
-## Education and contact
+## `$ contributions --open-source`
 
-**B.Tech, Computer Science and Engineering · MANIT Bhopal**
-
-For professional contact, email [devanshsinghbais111@gmail.com](mailto:devanshsinghbais111@gmail.com), or connect on [LinkedIn](https://www.linkedin.com/in/devansh-singh-bais-748b192b5/). The profile README is maintained in the [DevanshSinghBais repository](https://github.com/DevanshSinghBais/DevanshSinghBais).
-
-## Open-source contributions
+I believe contributing to open source is one of the best ways to understand real-world software engineering.
 
 <!-- OSS_START -->
-- **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files
-- **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive
+
+* **[ecomri](https://github.com/DevanshSinghBais/ecomri/pull/1)** — Update project files.
+* **[IEEE-Recruitment-Task](https://github.com/DevanshSinghBais/IEEE-Recruitment-Task/pull/1)** — Make Positivus landing page fully responsive.
+
 <!-- OSS_END -->
 
-<p align="center"><sub>Build carefully. Ship useful things.</sub></p>
+---
+
+## `$ contribution-snake --animate`
+
+<p align="center">
+  <img src="https://raw.githubusercontent.com/DevanshSinghBais/DevanshSinghBais/output/github-snake-dark.svg" width="100%" alt="Animated GitHub contribution snake" />
+</p>
+
+<p align="center">
+  <sub>Generated daily through GitHub Actions · <a href="./.github/workflows/snake.yml">Workflow</a> · <a href="./PROFILE_MAINTENANCE.md">Maintenance notes</a></sub>
+</p>
+
+---
+
+## `$ education`
+
+**B.Tech — Computer Science and Engineering**
+
+Maulana Azad National Institute of Technology (MANIT), Bhopal.
+
+---
+
+<p align="center">
+  <b>Build carefully. Understand deeply. Ship useful things.</b>
+</p>
+
+<p align="center">
+  <img src="https://img.shields.io/badge/Always-Learning-00D9A6?style=flat-square" />
+  <img src="https://img.shields.io/badge/Always-Building-39FF88?style=flat-square" />
+</p>
